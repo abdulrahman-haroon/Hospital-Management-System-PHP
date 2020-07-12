@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>INSERT</title>
+<style>
+body {
+    background: url(Untitled-design-34-1170x658.jpg) no-repeat center center;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover; 
+}
+h1 {
+ background: linear-gradient(to right, transparent, white);
+  padding: 30px;
+  
+  font-family:verdana;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ECF0F1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+<br>
+<center><h1 >CLICK FROM THE FOLLOWING</h1></center>
+<br>
+<br>
+<br>
+<br>
+<center><a href="http://localhost/hospital/insertDoctor.php"><button class="button" style="vertical-align:middle"><span>DOCTOR</span></a></button> <a href="http://localhost/hospital/insertNurse.php"><button class="button" style="vertical-align:middle"><span>NURSE</span></a></button> <a href="http://localhost/hospital/insertPatients.php"><button class="button" style="vertical-align:middle"><span>PATIENT</span></a></button></center>
+
+<br>
+<center><div class="input-group">	
+    <a href="http://localhost/hospital/LoginToRegistration.php"><button class="btn" type="submit" name="submit">Logout</a></button> 
+	</div></center>
+	<br>
+</body>
+
+
+
+</html>
